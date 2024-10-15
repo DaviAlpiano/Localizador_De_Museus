@@ -1,5 +1,7 @@
 package com.betrybe.museumfinder.model;
 
+import org.apache.juli.logging.Log;
+
 /**
  * The type Museum.
  */
@@ -28,7 +30,7 @@ public class Museum {
    *
    * @param id the id
    */
-  public void setId(long id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
@@ -163,7 +165,7 @@ public class Museum {
    *
    * @return the legacy id
    */
-  public long getLegacyId() {
+  public Long getLegacyId() {
     return legacyId;
   }
 
@@ -172,7 +174,7 @@ public class Museum {
    *
    * @param legacyId the legacy id
    */
-  public void setLegacyId(long legacyId) {
+  public void setLegacyId(Long legacyId) {
     this.legacyId = legacyId;
   }
 }
