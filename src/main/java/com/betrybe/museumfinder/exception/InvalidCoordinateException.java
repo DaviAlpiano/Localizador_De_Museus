@@ -8,13 +8,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  */
 @ResponseStatus(value = HttpStatus.BAD_REQUEST)
 public class InvalidCoordinateException extends RuntimeException {
-
-  /**
-   * Instantiates a new Invalid coordinate exception.
-   *
-   * @param message the message
-   */
-  public InvalidCoordinateException(String message) {
-    super(message);
+  public InvalidCoordinateException() {
+    super("Coordenada inválida!"); // Mensagem padrão
   }
 }
