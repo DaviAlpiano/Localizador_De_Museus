@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 /**
  * The type Invalid coordinate exception.
  */
-@ResponseStatus(value = HttpStatus.NOT_FOUND)
+@ResponseStatus(value = HttpStatus.BAD_REQUEST)
 public class InvalidCoordinateException extends RuntimeException {
 
   /**

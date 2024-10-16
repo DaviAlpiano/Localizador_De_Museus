@@ -31,10 +31,10 @@ public class MuseumService implements MuseumServiceInterface {
   public Museum getClosestMuseum(Coordinate coordinate, Double maxDistance) {
     Boolean coordinateUtil = CoordinateUtil.isCoordinateValid(coordinate);
     if (!coordinateUtil) {
-      throw new InvalidCoordinateException("Invalid coordinate");
+      throw new InvalidCoordinateException("Coordenada inválida!");
     }
     return database.getClosestMuseum(coordinate, maxDistance)
-        .orElseThrow(() -> new MuseumNotFoundException("Museum not found"));
+        .orElseThrow(() -> new MuseumNotFoundException("Museu não encontrado!"));
   }
 
   @Override
@@ -42,7 +42,7 @@ public class MuseumService implements MuseumServiceInterface {
     Coordinate coordinate = museum.getCoordinate();
     Boolean coordinateUtil = CoordinateUtil.isCoordinateValid(coordinate);
     if (!coordinateUtil) {
-      throw new InvalidCoordinateException("Invalid coordinate");
+      throw new InvalidCoordinateException("Coordenada inválida!");
     }
     return database.saveMuseum(museum);
   }

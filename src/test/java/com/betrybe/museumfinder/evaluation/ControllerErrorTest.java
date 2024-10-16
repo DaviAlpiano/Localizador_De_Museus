@@ -93,7 +93,7 @@ public class ControllerErrorTest {
 
   private Exception createInvalidCoordinateException() {
     return (Exception) instantiateClassByName(
-        "com.betrybe.museumfinder.exception.InvalidCoordinateException");
+          "com.betrybe.museumfinder.exception.InvalidCoordinateException");
   }
   private Exception createMuseumNotFoundException() {
     return (Exception) instantiateClassByName(
