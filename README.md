@@ -1,10 +1,30 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# My Project
+
+# Contexto
+Este projeto trata-se de uma API cuja principal funcionalidade é facilitar a busca por museus baseada em sua localização.
+
+## Técnologias usadas
+
+Back-end:
+> Desenvolvido usando: Java, SpringBoot, Docker, Maven
+
+## Instalando Dependências
+ 
+```bash
+mvn install
+``` 
+## Executando aplicação
+
+* Para rodar o back-end:
+
+  ```
+    mvn spring-boot:run
+  ```
+
+## Executando Testes
+
+* Para rodar todos os testes:
+
+  ```
+    mvn test
+  ```

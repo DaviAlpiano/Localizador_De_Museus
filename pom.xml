@@ -127,7 +127,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
-          <mainClass>com.betrybe.museumfinder.MuseumFinderApplication</mainClass>
+          <mainClass>com.davi.museumfinder.MuseumFinderApplication</mainClass>
           <layout>JAR</layout>
         </configuration>
       </plugin>
